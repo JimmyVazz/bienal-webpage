@@ -34,7 +34,7 @@
         red distribuida de ciudadanos. </p>
 
       <img class="cluster" src="img/tipos.png" alt="Cluster Mexico" height="300px">
-      <p class="pie">Imagen 1. Índice de aumento de delitos por tipo. INEGI"</p>
+      <p class="pie">Índice de aumento de delitos por tipo. INEGI"</p>
     </div>
 
     <div class="item main">
@@ -42,28 +42,105 @@
 
       <p>Nuestra investigación consistio en 3 variables de la siguiente manera: </p>
       <img src="img/variables.png" alt="Variables" height="360px">
+      <p>La metodología se divide en las siguientes etapas: </p>
+      <ul>
+        <li>Investigación de los antecedentes y estado del arte. </li>
+        <li> Diseño de los módulos de sensores, actuadores y playera. </li>
+        <li>Implementación de la playera (prototipo) y app móvil. </li>
+        <li>Pruebas de la playera inteligente. </li>
+      </ul>
 
+      <p>Población beneficiada</p>
+      <ul>
+        <li>Personas en general, que necesiten monitorear sus signos vitales y sean propensos a sufrir a alguna
+          situación de riesgo (asaltos, secuestros, accidentes, entre otras). </li>
+      </ul>
     </div>
 
     <div class="item sidebar">
       <h2 class="text">Funcionamiento</h2>
+
+      <p>El presente proyecto propone el diseño e implementación de una playera inteligente, para todo tipo de personas,
+        la cual alertará en tiempo real cuando se presente una situación de riesgo como intento de asalto o violación,
+        caídas, entre otras, a través de la medición de parámetros fisiológicos del usuario, así como también el
+        monitoreo de los principales signos vitales. </p>
+      <p>Para realizarlo se hace uso de tarjetas de desarrollo que pueden
+        ser implementadas y programadas para analizar la información proveniente de diversos sensores, esperando la
+        detección de anomalías en dicha información para generar las alertas en tiempo real y a su vez poder ejecutar
+        los resultados a través de actuadores y a todo esto se le implementara un algoritmo inteligente con machine
+        learning. Estas playeras se podrán conectar en red, para que los mismos usuarios cercanos, mediante una señal o
+        estimulo recibido puedan apoyar a la persona que esté sufriendo un evento traumático.</p>
+
+      <img src="img/Wearable.png" alt="Diagrama" height="310px">
+      <p class="pie">Diagrama del dispositivo</p>
     </div>
 
     <div class="item ads">
       <h2 class="text">Pruebas y conclusiones</h2>
 
-      <p>Medición del ritmo cardiaco y respiración en reposo:</p>
+      <p> <strong>1. Frecuencia cardiaca y las emociones </strong></p>
+      <ul>
+        <li>Una frecuencia cardíaca en reposo normal oscila entre 60 y 100 latidos por minuto.</li>
+        <li>Mientras una persona duerme, según los expertos, lo más adecuado es que las pulsaciones se queden en unas 50
+          por minuto o un descenso aproximado de un 8% con respecto al conocido como estado de vigilia o reposo
+          despiertos. </li>
+        <li>El hecho de caminar eleva el ritmo de modo que se alcanzarían unos 90-100 latidos cada 60 segundos. En caso
+          de aumentar la intensidad de la caminata se puede llegar al 60-70% de la capacidad máxima (unas 130 veces por
+          minuto). </li>
+      </ul>
+
+      <p>Para la primera serie de pruebas se empleo la ayuda de una persona con las siguientes características:
+        <ul>
+          <li>Edad 22</li>
+          <li>Peso 70 kg</li>
+          <li>Estudiante</li>
+          Masculino
+        </ul>
+
+      </p>
+      <p><strong>2. Medición de la respiración usando galgas extensiométricas </strong></p>
+      <p>La respiración de la persona se toma de acuerdo con la presión ejercida en las galgas ubicadas en la parte
+        delantera de la playera, de modo que conforme baja la resistencia del sensor la fuerza va aumentando. Las
+        actividades a las que se somete una persona hacen variar de forma proporcional en conjunto con su ritmo
+        cardiaco.</p>
+
+      <p><strong>3. Rutinas diarias y datos generales de la persona </strong></p>
+      <p>La variable de rutina nos ayuda a dividir las distintas personas de acuerdo con las actividades que se realizan
+        del diario para reducir los patrones de actividades y de esa forma poder obtener una respuesta más exacta a la
+        hora de clasificar su situación actual. </p>
+      <img src="img/rutina.png" alt="Rutina" height="150px">
+
+      <p class="pie"> <strong> Pruebas con la camisa</strong></p>
+      <p class="pie"> <strong> - - - </strong></p>
+      <p> <strong> Medición del ritmo cardiaco y respiración en reposo: </strong></p>
       <img src="img/pruebas-6.jpg" alt="Ritmo cardiaco en pecho" height="288px">
 
-      <p>Medición del ritmo cardiaco y respiración en actividad física - Leve :</p>
-      <img src="img/pruebas-3.jpg" alt="Ritmo cardiaco en pecho" height="288px">
+      <p> <strong> Medición del ritmo cardiaco y respiración en actividad física - Leve : </strong></p>
+      <img src="img/pruebas-3.jpg" alt="Ritmo cardiaco en pecho" height="288px" class="repoiero"
+        style="margin-left: 65px;">
 
-      <p>Medición del ritmo cardiaco y respiración en actividad física - Ardua :</p>
-      <img src="img/pruebas-5.jpg" alt="Ritmo cardiaco en pecho" height="288px">
+      <p>Medición del ritmo cardiaco y respiración en actividad física - Arduamente :</p>
+      <img src="img/pruebas-5.jpg" alt="Ritmo cardiaco en pecho" height="288px" class="repoiero"
+        style="margin-left: 65px;">
 
-      <p>Descarga nuestro informe de investigación tocando el siguiente enlace:</p>
+      <p class="pie"><strong>Conclusión</strong></p>
+      <p>Los resultados favorecieron la idea de interpretar la situación en la que una persona se encuentra realizando
+        una actividad por medio de su ritmo cardiaco, respiración y rutina. La importancia de la investigación se centra
+        en los motivos sociales de seguridad y empatía comunitaria, de modo que los esfuerzos deben ser en conjunto para
+        poder llevar a cabo estas ideas a nivel más allá donde el ambiente de pruebas e investigación se convierta en
+        interacción diaria de cada persona que tenga la posibilidad de usar nuestro dispositivo.
+
+      </p>
+      <p class="pie"> <strong> - - - </strong></p>
+
+      <p> <strong> Para detalles de pruebas, metodología y más información puedes descargar nuestro informe de
+          investigación tocando
+          el
+          siguiente enlace: </strong></p>
       <a class="link" href="documents/Proyecto.pdf" download="Informe de investigación - Camisa Inteligente"><i
           class="fas fa-file-pdf fa-3x"></i></a>
+
+
     </div>
 
     <div class="item footer">
